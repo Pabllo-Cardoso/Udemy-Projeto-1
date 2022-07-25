@@ -1,0 +1,98 @@
+*
+body{ /*corpo da página*/
+    background-color: #CCC; /* cor do fundo da página*/
+    font-family: Arial,sans-serif;/* texto fonte da página*/
+    margin: 0 auto; /* margem zerada da páagina*/
+}
+.hero{ /* classe de formatacao do header*/
+    background-image:url(./imagem\ 2\ bg-css.jpg); /* imagem do cabecalho*/
+    height: 500px;/* altura da inagem*/
+    background-position:  right center; /* alinhar na direita e centralizar na vertical*/
+    background-size: cover; /*sempre ocupar a imagem inteira*/
+    border-top: 1px solid transparent;
+}
+.hero-content{ /* classe de formatacao da div_class_hero-content*/
+    text-align: center; /*centralizar o texto*/
+    color: white; /* cor do texto*/
+    margin-top: 150px; /*margem do texto de cima para baixo*/
+}
+.hero-content h1{ /* classe de formatacao do (h1) dentro da div_class_hero-content*/
+    text-transform: uppercase;/* texto em letra de forma*/
+    font-size: 46px;/* tamanho da fonte do texto*/
+    text-shadow: 3px 3px 5px #333 /* deslocamento-eixo-horizontal-direita/deslocamento-eixo-vertical-baixo/sobra-esfumacada/cor*/
+}
+.hero-content p {
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+.hero nav ul{ /* classe de formatacao do (ul) dentro da (nav)_class_hero*/
+    text-align: right;
+    margin: 20px 50px 0 0;/* margem (top_20 px)e margem (left_50px)*/
+}
+.hero nav li{ /* classe de formatacao do (li) dentro da (nav)_class_hero*/
+    display:inline-block; /* elementos de blocos em linha*/
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.hero nav a{ /* classe de formatacao do (a) dentro da (nav)_class_hero*/
+    background: rgba(0,0,0,0.3); /* cor (rgb) preta, e (a) com opacidade de 0.3 */
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;/*espaco entre as letras*/
+}
+.hero nav a:hover{/* classe de formatacao do (a:hover) dentro da (nav)_class_hero*/
+    background: rgba(0,0,0,0.5); /*navegacao com opacidade (0.5)*/
+}
+main{ /*tag padrao único por página*/
+    width: 80%;
+    margin: auto;
+}
+.section-content{
+    background-color: rgb(120, 101, 172);
+    padding: 10px;
+    margin-top: 15px;
+}
+.card { /* classe de formatacao da (img) dentro da (card)_class_section-content*/
+    display:inline-block; /* elementos de blocos em linha*/
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 1%;
+    padding-right:8px;
+    padding-left: 6px;
+    padding-top: 20px;
+    color: white;
+}
+.card p{
+    background-color: rgb(184, 122, 8);
+    padding: 15px;
+}
+.header-content {
+    border-bottom: solid 2px #CCC;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.header-content {
+   margin: 0;
+}
+p {
+    color: white;
+}
+.rodapé{
+height: 80px;
+color: white;
+font-size: 14px;
+text-align: center;
+text-shadow: 2px 2px 2px black;
+background: #6B6C68;
+line-height: 80px;
+}
+
